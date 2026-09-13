@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Engineering portfolio of Arshi Shah" />
+  <title>Arshi Shah — Engineering Portfolio</title>
+  <style>
+    :root { --ink:#eaf0ff; --muted:#9aa9c8; --panel:#121a2e; --line:rgba(186,205,255,.16); --accent:#7c9cff; --mint:#66e3c4; --bg:#08101f; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font:16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:radial-gradient(circle at 15% 0%,#17285c 0,transparent 32rem),var(--bg); }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1120px,calc(100% - 40px)); margin:auto; }
+    nav { display:flex; align-items:center; justify-content:space-between; padding:24px 0; }
+    .logo { font-weight:800; letter-spacing:-.04em; font-size:1.1rem; }.logo span { color:var(--mint); }
+    .navlinks { display:flex; gap:22px; color:var(--muted); font-size:.92rem; }
+    .navlinks a:hover { color:var(--ink); }
+    .hero { min-height:560px; display:grid; align-content:center; grid-template-columns:1.35fr .65fr; gap:48px; padding:64px 0 96px; }
+    .eyebrow { color:var(--mint); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:.75rem; }
+    h1 { font-size:clamp(3rem,7vw,6.4rem); letter-spacing:-.075em; line-height:.92; margin:18px 0 25px; max-width:800px; }
+    .hero p { color:var(--muted); font-size:1.14rem; max-width:590px; }
+    .actions { display:flex; gap:13px; margin-top:30px; flex-wrap:wrap; }
+    .button { display:inline-block; border:1px solid var(--line); padding:12px 18px; border-radius:9px; font-weight:700; }.button.primary { background:var(--accent); border-color:var(--accent); color:#08101f; }.button:hover { transform:translateY(-2px); }
+    .summary { align-self:center; border:1px solid var(--line); background:rgba(18,26,46,.72); border-radius:16px; padding:25px; }.summary div+div { border-top:1px solid var(--line); margin-top:18px; padding-top:18px; }.summary b { display:block; font-size:1.8rem; letter-spacing:-.06em; }.summary small { color:var(--muted); }
+    section { padding:82px 0; border-top:1px solid var(--line); } h2 { font-size:clamp(2rem,4vw,3.2rem); letter-spacing:-.06em; margin:0 0 12px; }.intro { color:var(--muted); max-width:650px; margin:0 0 34px; }
+    .projects { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }.card { min-height:285px; padding:27px; border:1px solid var(--line); border-radius:15px; background:linear-gradient(150deg,rgba(29,44,86,.8),rgba(18,26,46,.9)); transition:.2s; }.card:hover { transform:translateY(-5px); border-color:rgba(124,156,255,.7); }.number { color:var(--mint); font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.78rem; }.card h3 { font-size:1.55rem; margin:54px 0 10px; letter-spacing:-.045em; }.card p { color:var(--muted); margin:0; }.tags { display:flex; gap:8px; flex-wrap:wrap; margin-top:22px; }.tag { color:#cdd8f7; background:rgba(255,255,255,.07); padding:4px 9px; border-radius:99px; font-size:.75rem; }
+    .about { display:grid; grid-template-columns:1fr 1fr; gap:50px; }.about p { color:var(--muted); font-size:1.08rem; }.skills { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }.skill { padding:14px; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+    .contact { text-align:center; padding:100px 0; }.contact p { color:var(--muted); }.email { color:var(--mint); font-size:clamp(1.3rem,3vw,2.5rem); font-weight:750; letter-spacing:-.05em; }
+    footer { border-top:1px solid var(--line); padding:24px 0; color:var(--muted); font-size:.86rem; display:flex; justify-content:space-between; }
+    @media(max-width:720px) { .navlinks { display:none; }.hero,.about { grid-template-columns:1fr; gap:22px; min-height:auto; }.hero { padding:60px 0 75px; }.projects { grid-template-columns:1fr; } .summary { max-width:330px; } }
+  </style>
+</head>
+<body>
+  <!-- EDIT: Change your name, links, project descriptions, and skills directly in this file. -->
+  <div class="wrap">
+    <nav><a class="logo" href="#top">AS<span>.</span></a><div class="navlinks"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+    <main id="top">
+      <section class="hero">
+        <div><div class="eyebrow">Engineering portfolio · 2026</div><h1>Building useful things with thoughtful engineering.</h1><p>Hi, I’m Arshi — an engineer interested in turning complex problems into simple, dependable digital experiences.</p><div class="actions"><a class="button primary" href="#work">View projects</a><a class="button" href="mailto:arshijshah@gmail.com">Get in touch</a></div></div>
+        <aside class="summary"><div><b>04+</b><small>Featured projects</small></div><div><b>01</b><small>Curious engineer</small></div><div><b>∞</b><small>Ideas worth exploring</small></div></aside>
+      </section>
+      <section id="work"><div class="eyebrow">Selected work</div><h2>Projects I’ve worked on.</h2><p class="intro">Replace these sample cards with the projects that best show your range, process, and impact.</p>
+        <div class="projects">
+          <a class="card" href="https://docs.google.com/presentation/d/1oAm7eK1mEMZpgTh4p5lR8OLDA65PY908By4SxtpbzZc/edit?slide=id.p#slide=id.p"><div class="number">01 / FEATURED PROJECT</div><h3>State Machine: Tollbooth Using PLTW S7</h3><p>A short, outcome-focused description. Explain the problem you solved and why the work mattered.</p><div class="tags"><span class="tag">Python</span><span class="tag">React</span><span class="tag">APIs</span></div></a>
+          <a class="card" href="https://docs.google.com/presentation/d/1xTb65vznooT5OjNUNpkdGuZ3Wm0TXn2Ea-odeaULM1g/edit?slide=id.p#slide=id.p"><div class="number">02 / FEATURED PROJECT</div><h3>Combinational Logic Circuit Design: Date of Birth</h3><p>A data-driven tool that makes a difficult workflow faster, clearer, and easier to trust.</p><div class="tags"><span class="tag">Data</span><span class="tag">SQL</span><span class="tag">Visualization</span></div></a>
+          <a class="card" href="#"><div class="number">03 / FEATURED PROJECT</div><h3>Project Circuit</h3><p>An engineering build demonstrating sound technical decisions from initial concept to delivery.</p><div class="tags"><span class="tag">JavaScript</span><span class="tag">Cloud</span><span class="tag">Testing</span></div></a>
+          <a class="card" href="#"><div class="number">04 / FEATURED PROJECT</div><h3>Project Delta</h3><p>An experiment, hackathon project, or class project that reveals how you think and learn.</p><div class="tags"><span class="tag">Prototyping</span><span class="tag">UX</span><span class="tag">Systems</span></div></a>
+        </div>
+      </section>
+      <section id="about" class="about"><div><div class="eyebrow">About me</div><h2>A little more context.</h2></div><div><p>Use this space to introduce your engineering interests, what you’re studying or working on, and the kinds of problems you want to solve. Keep it human and specific.</p><div class="skills"><div class="skill">Frontend development</div><div class="skill">Backend systems</div><div class="skill">Data & analytics</div><div class="skill">Product thinking</div></div></div></section>
+      <section id="contact" class="contact"><div class="eyebrow">Let’s connect</div><h2>Have a project in mind?</h2><p>I’m always happy to meet people building interesting things.</p><a class="email" href="mailto:your.email@example.com">your.email@example.com</a></section>
+    </main>
+    <footer><span>© 2026 Arshi Shah</span><span>Built with curiosity.</span></footer>
+  </div>
+</body>
+</html>
