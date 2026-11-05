@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Arshi Shah | Electrical Engineering Portfolio">
@@ -11,10 +12,10 @@
   <meta name="description" content="Engineering portfolio of Arshi Shah" />
   <title>Arshi Shah — Engineering Portfolio</title>
   <style>
-    :root { --ink:#eaf0ff; --muted:#9aa9c8; --panel:#121a2e; --line:rgba(186,205,255,.16); --accent:#7c9cff; --mint:#66e3c4; --bg:#08101f; }
+    :root { --ink:#3f3329; --muted:#756558; --panel:#f0e7da; --line:rgba(74,56,42,.17); --accent:#a17b5b; --mint:#788170; --bg:#f8f4ec; }
     * { box-sizing:border-box; }
     html { scroll-behavior:smooth; }
-    body { margin:0; font:16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:radial-gradient(circle at 15% 0%,#17285c 0,transparent 32rem),var(--bg); }
+    body { margin:0; font:16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:radial-gradient(circle at 14% 0%,#e9ddcd 0,transparent 34rem),var(--bg); }
     a { color:inherit; text-decoration:none; }
     .wrap { width:min(1120px,calc(100% - 40px)); margin:auto; }
     nav { display:flex; align-items:center; justify-content:space-between; padding:24px 0; }
@@ -26,10 +27,10 @@
     h1 { font-size:clamp(3rem,7vw,6.4rem); letter-spacing:-.075em; line-height:.92; margin:18px 0 25px; max-width:800px; }
     .hero p { color:var(--muted); font-size:1.14rem; max-width:590px; }
     .actions { display:flex; gap:13px; margin-top:30px; flex-wrap:wrap; }
-    .button { display:inline-block; border:1px solid var(--line); padding:12px 18px; border-radius:9px; font-weight:700; }.button.primary { background:var(--accent); border-color:var(--accent); color:#08101f; }.button:hover { transform:translateY(-2px); }
-    .summary { align-self:center; border:1px solid var(--line); background:rgba(18,26,46,.72); border-radius:16px; padding:25px; }.summary div+div { border-top:1px solid var(--line); margin-top:18px; padding-top:18px; }.summary b { display:block; font-size:1.8rem; letter-spacing:-.06em; }.summary small { color:var(--muted); }
+    .button { display:inline-block; border:1px solid var(--line); padding:12px 18px; border-radius:9px; font-weight:700; background:rgba(255,252,246,.55); }.button.primary { background:var(--accent); border-color:var(--accent); color:#fffaf2; }.button:hover { transform:translateY(-2px); }
+    .summary { align-self:center; border:1px solid var(--line); background:rgba(255,252,246,.72); border-radius:16px; padding:25px; }.summary div+div { border-top:1px solid var(--line); margin-top:18px; padding-top:18px; }.summary b { display:block; font-size:1.8rem; letter-spacing:-.06em; }.summary small { color:var(--muted); }
     section { padding:82px 0; border-top:1px solid var(--line); } h2 { font-size:clamp(2rem,4vw,3.2rem); letter-spacing:-.06em; margin:0 0 12px; }.intro { color:var(--muted); max-width:650px; margin:0 0 34px; }
-    .projects { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }.card { min-height:285px; padding:27px; border:1px solid var(--line); border-radius:15px; background:linear-gradient(150deg,rgba(29,44,86,.8),rgba(18,26,46,.9)); transition:.2s; }.card:hover { transform:translateY(-5px); border-color:rgba(124,156,255,.7); }.number { color:var(--mint); font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.78rem; }.card h3 { font-size:1.55rem; margin:54px 0 10px; letter-spacing:-.045em; }.card p { color:var(--muted); margin:0; }.tags { display:flex; gap:8px; flex-wrap:wrap; margin-top:22px; }.tag { color:#cdd8f7; background:rgba(255,255,255,.07); padding:4px 9px; border-radius:99px; font-size:.75rem; }
+    .projects { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }.card { min-height:285px; padding:27px; border:1px solid var(--line); border-radius:15px; background:#fdf9f2; transition:.2s; }.card:hover { transform:translateY(-4px); border-color:rgba(161,123,91,.72); box-shadow:0 10px 24px rgba(74,56,42,.08); }.number { color:var(--mint); font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.78rem; }.card h3 { font-size:1.55rem; margin:54px 0 10px; letter-spacing:-.045em; }.card p { color:var(--muted); margin:0; }.tags { display:flex; gap:8px; flex-wrap:wrap; margin-top:22px; }.tag { color:#5e4937; background:#eee4d7; padding:4px 9px; border-radius:99px; font-size:.75rem; }
     .about { display:grid; grid-template-columns:1fr 1fr; gap:50px; }.about p { color:var(--muted); font-size:1.08rem; }.skills { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }.skill { padding:14px; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
     .contact { text-align:center; padding:100px 0; }.contact p { color:var(--muted); }.email { color:var(--mint); font-size:clamp(1.3rem,3vw,2.5rem); font-weight:750; letter-spacing:-.05em; }
     footer { border-top:1px solid var(--line); padding:24px 0; color:var(--muted); font-size:.86rem; display:flex; justify-content:space-between; }
